@@ -1,7 +1,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 
-const TodoList = ({ todos, onDelete, onComplete = { onComplete } }) => {
+const TodoList = ({ todos, onDelete, onComplete }) => {
   return (
     <div>
       {todos.map((todo, index) => (
